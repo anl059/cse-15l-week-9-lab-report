@@ -2,6 +2,7 @@
 * to finish up my grading script, I decided to add a .txt file which would receive the output from the junit tests when I ran the grading script so the user can see what their results are without getting lost in the terminal
 * I finished writing my grading script by referring to Joe's notes and bash documentation
 * here is the finished grading script:
+
 ```
 CPATH='.;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar'
 
@@ -31,6 +32,7 @@ else
     echo "Passed"
 fi
 ```
+
 * now we will test the grading script on several repositories:
 
 1) [https://github.com/ucsd-cse15l-f22/list-methods-lab3](https://github.com/ucsd-cse15l-f22/list-methods-lab3)
